@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.android.example.mybussinesscard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cute_pet"
+        android:scaleType="center"
+        android:id="@+id/image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:text="Pets Adoption Center"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:id="@+id/title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:textColor="@android:color/white"
+        android:text="Address: H block, IIT HYDERABAD, Kandi"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:id="@+id/address"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_below="@+id/address"
+        android:textSize="16sp"
+        android:id="@+id/contactno"
+        android:text="Conatct no: +91 90992 39248"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactno"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:text="Email: petsadoption@gmail.com"
+        android:id="@+id/email" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="Time: 8 A.M to 5 P.M"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
